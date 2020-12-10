@@ -6,7 +6,7 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .App {
@@ -49,6 +49,11 @@ button {
   border: none;
   outline: none;
   transition: 0.3s;
+}
+
+.count {
+  text-align: right;
+  margin-bottom: 20px;
 }
 
 /* button:hover {

@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import './App.css';
+import Count from "./Count";
 import Text from './Text';
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
   return (
     <div className="Bod" style={{backgroundColor:color}}>
       <div className="App" style={{color:color}}>
+        <Count current={index + 1} total={data.length - 1} className="count" />
         <Text disp={data[index]} />
         <div className="Buttons">
         <button onClick= {() => handlePrev()} className= {disablePrevButton} style={{backgroundColor:color}}>Previous</button>
