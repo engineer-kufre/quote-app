@@ -64,3 +64,15 @@ button {
 /* .disable {
   background-color: rgba(255, 0, 0, 0.109);
 } */
+
+@media screen and (max-width: 480px) {
+  .Buttons {
+    flex-wrap: wrap;
+  }
+  button {
+    width: 100%;
+  }
+  button:last-child {
+    margin-top: 20px;
+  }
+}
