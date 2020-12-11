@@ -52,7 +52,7 @@ function App() {
   return (
     <div className="Bod" style={{backgroundColor:color}}>
       <div className="App" style={{color:color}}>
-        <Count current={index + 1} total={data.length - 1} className="count" />
+        <Count current={index + 1} total={data.length} className="count" />
         <Text disp={data[index]} />
         <div className="Buttons">
         <button onClick= {() => handlePrev()} className= {disablePrevButton} style={{backgroundColor:color}}>Previous</button>
